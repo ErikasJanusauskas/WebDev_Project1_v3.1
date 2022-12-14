@@ -1,0 +1,36 @@
+nav{
+    position: fixed;
+
+    width: 100%;
+    margin: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #FFFFFF00;
+}
+
+.navCon{
+    width: max-content;
+    padding: 1rem;
+
+    display: flex;
+    gap: 1rem;
+
+    border-radius: 3rem;
+
+    background-color: #000000;
+}
+
+.navButton{
+    width: 15rem;
+    height: 3rem;
+
+    border-radius: 1.5rem;
+
+    background-color: #000000;
+}
+
+.navButton:hover{
+    background-color: #303030;
+}
