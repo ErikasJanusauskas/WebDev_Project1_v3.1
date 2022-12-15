@@ -10,10 +10,6 @@
     color: #FFFFFF;
 }
 
-body{
-
-}
-
 footer{
     height: max-content;
     padding: 20rem;
@@ -43,10 +39,14 @@ footer{
 
 }
 
-.footerTitel{
+.Titel{
     font-size: 2.5rem;
 }
 
-.footerText{
+.LText{
     font-size: 1.5rem;
+}
+
+.MText{
+    font-size: 1.2rem;
 }

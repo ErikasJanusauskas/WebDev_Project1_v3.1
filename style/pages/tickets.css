@@ -1,9 +1,97 @@
-.ticketMarket{
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(230,57,70,1) 100%);
-
+#purchaseTickets{
+    padding-top: 10rem;
     height: 100vh;
+
+    background-color: lightcoral;
 }
 
-.ticketPurchaseCard{
+.ticketCard{
+    width: min-content;
+    padding: 2.5rem;
+
+    border-radius: 2.5rem;
+
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
     
+        'title title title title title'
+        'cardP1 cardP1 SDV cardP7 cardP7'
+        'cardP2 cardP2 SDV cardP8 cardP8'
+        'cardP3 cardP3 SDV cardP9 cardP9'
+        'cardP4 cardP4 SDV cardP10 cardP12'
+        'cardP5 cardP5 SDV cardP11 cardP13'
+        'cardP6 cardP6 SDV cardP14 cardP14'
+        /* 'cardP6 cardP6 SDV cardP14 cardP14' */
+    ;
+
+    background-color: #000000;
+}
+
+.cardP1{
+    grid-area: cardP1;
+}
+.cardP2{
+    grid-area: cardP2;
+}
+.cardP3{
+    grid-area: cardP3;
+}
+.cardP4{
+    grid-area: cardP4;
+}
+.cardP5{
+    grid-area: cardP5;
+}
+.cardP6{
+    grid-area: cardP6;
+}
+.cardP7{
+    grid-area: cardP7;
+}
+.cardP8{
+    grid-area: cardP8;
+}
+.cardP9{
+    grid-area: cardP9;
+}
+.cardP10{
+    grid-area: cardP10;
+}
+.cardP11{
+    grid-area: cardP11;
+}
+.cardP12{
+    grid-area: cardP12;
+}
+.cardP13{
+    grid-area: cardP13;
+}
+.cardP14{
+    grid-area: cardP14;
+}
+.SDV{
+    grid-area: SDV;
+
+    height: fill;
+    width: 0.2rem;
+
+    border-radius: 0.1rem;
+
+    background-color: #FFFFFF;
+}
+
+.radioCard{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.cardInput{
+    height: 1.5rem;
+    padding: 0.5rem;
+
+    border-radius: 1.25rem;
+
+    color: #000000;
 }
